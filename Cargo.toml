@@ -1,0 +1,13 @@
+[package]
+name = "learn-rust-lib"
+version = "0.1.0"
+authors = ["Mike Tang <daogangtang@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+get_if_addrs = "*"
+
+
+[[bin]]
+name = "get_if_addrs"
+path = "src/get_if_addrs.rs"
