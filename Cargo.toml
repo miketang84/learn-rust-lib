@@ -6,8 +6,20 @@ edition = "2018"
 
 [dependencies]
 get_if_addrs = "*"
-
+rand = "*"
 
 [[bin]]
 name = "get_if_addrs"
 path = "src/get_if_addrs.rs"
+
+[[bin]]
+name = "rand_shuffle"
+path = "src/rand_shuffle.rs"
+
+[[bin]]
+name = "rand_choose"
+path = "src/rand_choose.rs"
+
+[[bin]]
+name = "rand_choose_multiple"
+path = "src/rand_choose_multiple.rs"
